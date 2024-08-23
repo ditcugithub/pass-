@@ -15,7 +15,7 @@
     <repositories>
         <repository>
             <id>spigot-repo</id>
-            <url>https://repo.spigotmc.org/nexus/content/repositories/public/</url>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/public/</url>
         </repository>
     </repositories>
 
