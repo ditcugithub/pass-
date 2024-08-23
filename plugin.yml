@@ -1,0 +1,19 @@
+name: PShop
+version: 1.3
+main: com.yourname.pshop.PShopPlugin
+api-version: 1.21
+commands:
+  pshop:
+    description: Point Shop EZ
+    usage: /pshop
+    aliases: [playershop, shop]
+  pshop add:
+    description: Adds an item to the shop
+    usage: /pshop add <price> <number>
+    permission: pshop.add
+    permission-message: You do not have permission to add items to the shop.
+  pshop remove:
+    description: Removes items from the shop
+    usage: /pshop remove
+    permission: pshop.remove
+    permission-message: You do not have permission to remove items from the shop.
